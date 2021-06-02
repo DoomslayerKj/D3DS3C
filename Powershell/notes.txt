@@ -1,0 +1,16 @@
+*) dir,ls = alias of Get-ChildItem
+
+Get-alias = get all aliases #gal
+
+
+Get-Member = get more info on an object
+
+(Get-childitem | select-object -index 0).Name
+
+(Get-childitem | select-object -index 0) | Get-member
+
+get-command #list all cmdlets in powershell
+
+get-help #command 
+
+echo "" | out-*
