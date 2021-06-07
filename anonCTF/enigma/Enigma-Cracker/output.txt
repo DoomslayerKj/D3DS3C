@@ -1,0 +1,2 @@
+{"Rotors": "III IV V", "Reflector": "C", "Ring": [0, 0, 0], "Plugboard": "", "Key": "DDY"}
+{"Rotors": "V II IV", "Reflector": "C", "Ring": [0, 0, 0], "Plugboard": "", "Key": "ZTI"}
