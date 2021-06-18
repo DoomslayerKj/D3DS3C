@@ -1,0 +1,5 @@
+192.168.222.199 -needs a route
+ip route add 192.168.222.0 via 10.175.34.1  
+ip route add network ip(192.168.5.0/netmask) via Gateway Ip
+
+by default netmask is 255.255.255.255 , so have to specify netmask for network ip

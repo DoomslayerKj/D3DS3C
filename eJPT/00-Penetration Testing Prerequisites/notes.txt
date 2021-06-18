@@ -1,0 +1,75 @@
+Subnet Calculators -
+	A classful calculator
+	A CIDR Calculator
+
+IP Routes -
+	ip route
+	route print - win
+	netstat -r   = OSX
+
+MAC Addresses
+	ipconfig/all - windows
+	ifconfig - *nix OS's
+	ip addr - Linux
+
+CAM Table = Content accessible memory
+
+Check arp cache :
+	arp
+	arp -a
+	ip
+
+
+------------------------------
+
+TCP & UDP
+
+
+To check open ports - 
+	netstat -tunp
+
+------------------------------
+
+DNS
+
+------------------------------
+
+Wireshark
+
+	monitore mode = promiscuous mode
+
+
+
+------------------------------
+
+DNS exfiltration, tools used -
+			
+			packerwhisperer
+
+
+------------------------------ 
+
+
+
+HTTP(S) Protocols -
+GET,POST,PUT,HEAD,TRACE ,OPTIONS,etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
