@@ -10,7 +10,7 @@ os.system('clear')
 banner=pyfiglet.figlet_format("Y2KJ's PORT SCANNER")
 print(banner)
 if (len(sys.argv) < 2 or len(sys.argv) > 2):
-	print("Usage: python3 portscanner.py {HOST-IP}")
+	print(f"Usage: python3 {sys.argv[0]} HOST-IP")
 	sys.exit(1)
 
 HOST=bytes(sys.argv[1],"utf-8")

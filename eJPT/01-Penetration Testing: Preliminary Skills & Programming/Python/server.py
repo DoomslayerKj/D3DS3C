@@ -13,7 +13,9 @@ import sys
 
 
 if __name__ == '__main__':
-	
+	if (len(sys.argv) < 2 or len(sys.argv) > 2):
+		print(f"Usage: python3 {sys.argv[0]} HOST-IP")
+		sys.exit(1)
 	HOST=bytes(sys.argv[1],"utf-8")
 	PORT=int(sys.argv[2])
 
