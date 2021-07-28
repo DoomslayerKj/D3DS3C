@@ -1,0 +1,43 @@
+# Nmap 7.91 scan initiated Tue Jul 27 22:51:31 2021 as: nmap -sT -O -A -p- -oN 198_nmap 10.104.11.198
+Nmap scan report for 10.104.11.198
+Host is up (0.27s latency).
+Not shown: 65533 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 6.0p1 Debian 4+deb7u2 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 6d:4b:da:62:f8:ce:cb:17:e7:d3:5b:20:af:58:a7:61 (DSA)
+|   2048 4b:d2:c8:f7:82:ab:30:01:ba:fb:c0:95:06:5a:ba:7b (RSA)
+|_  256 03:4b:f6:bd:2f:e0:69:79:11:77:c1:e5:ef:20:53:a6 (ECDSA)
+3306/tcp open  mysql   MySQL 5.5.38-0+wheezy1
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.38-0+wheezy1
+|   Thread ID: 502
+|   Capabilities flags: 63487
+|   Some Capabilities: Support41Auth, IgnoreSigpipes, Speaks41ProtocolOld, ODBCClient, SupportsTransactions, DontAllowDatabaseTableColumn, Speaks41ProtocolNew, InteractiveClient, LongColumnFlag, LongPassword, ConnectWithDatabase, IgnoreSpaceBeforeParenthesis, FoundRows, SupportsCompression, SupportsLoadDataLocal, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: qsnMu&Xj0KgHnsx":>hr
+|_  Auth Plugin Name: mysql_native_password
+MAC Address: 00:50:56:A2:88:0F (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=7/27%OT=22%CT=1%CU=38260%PV=Y%DS=1%DC=D%G=Y%M=005056%T
+OS:M=61004F38%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=I%II=I
+OS:%TS=8)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=I%TS=8)OPS(O1=M4E9ST11NW2%O2=M4E9
+OS:ST11NW2%O3=M4E9NNT11NW2%O4=M4E9ST11NW2%O5=M4E9ST11NW2%O6=M4E9ST11)WIN(W1
+OS:=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=3890)ECN(R=Y%DF=Y%T=40%W=3908%O
+OS:=M4E9NNSNW2%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N
+OS:)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=
+OS:S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF
+OS:=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=
+OS:G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   271.70 ms 10.104.11.198
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 27 23:53:52 2021 -- 1 IP address (1 host up) scanned in 3741.77 seconds

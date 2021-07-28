@@ -1,0 +1,80 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: 96_host
+START_TIME: Tue Jul 27 21:01:08 2021
+URL_BASE: http://10.104.11.96/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.104.11.96/ ----
++ http://10.104.11.96/announce (CODE:200|SIZE:604)
++ http://10.104.11.96/cgi-bin/ (CODE:403|SIZE:288)
++ http://10.104.11.96/default (CODE:200|SIZE:5376)
+==> DIRECTORY: http://10.104.11.96/images/
+==> DIRECTORY: http://10.104.11.96/include/
++ http://10.104.11.96/index.php (CODE:200|SIZE:2272)
++ http://10.104.11.96/server-status (CODE:403|SIZE:293)
+==> DIRECTORY: http://10.104.11.96/staff/
+==> DIRECTORY: http://10.104.11.96/style/
+==> DIRECTORY: http://10.104.11.96/tmp/
+
+---- Entering directory: http://10.104.11.96/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.104.11.96/include/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.104.11.96/staff/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.104.11.96/style/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.104.11.96/tmp/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+-----------------
+END_TIME: Tue Jul 27 21:36:27 2021
+DOWNLOADED: 4612 - FOUND: 5
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: 96_host
+START_TIME: Tue Jul 27 22:48:11 2021
+URL_BASE: http://10.104.11.96/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+EXTENSIONS_LIST: (.php,.bak,.old) | (.php)(.bak)(.old) [NUM = 3]
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.104.11.96/ ----
++ http://10.104.11.96/awards.php (CODE:200|SIZE:7475)
++ http://10.104.11.96/cgi-bin/.php (CODE:403|SIZE:292)
++ http://10.104.11.96/footer.php (CODE:200|SIZE:233)
++ http://10.104.11.96/header.php (CODE:200|SIZE:1694)
++ http://10.104.11.96/index.php (CODE:200|SIZE:2272)
++ http://10.104.11.96/login.php (CODE:200|SIZE:2072)
++ http://10.104.11.96/news.php (CODE:200|SIZE:2826)
++ http://10.104.11.96/offline.php (CODE:200|SIZE:2091)
++ http://10.104.11.96/signup.php (CODE:200|SIZE:2415)
+
+-----------------
+END_TIME: Tue Jul 27 23:52:41 2021
+DOWNLOADED: 13836 - FOUND: 9
