@@ -25,3 +25,4 @@
 25.Potato <- PHP Type juggling (post a php null array to bypass if(strcmp($_GET['password'],"password")==0)) 
 26.FunBOx:ROOKIE
 27.Katana
+28.FunBox:UnderConstruction (oscommerce RCE but change payload from system to shell_exec)
