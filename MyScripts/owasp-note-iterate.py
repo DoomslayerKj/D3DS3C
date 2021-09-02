@@ -16,3 +16,4 @@ for i in range(101):
 	print(r_url)
 	r = requests.get(url=r_url)
 	print(r.text)
+	time.sleep(1.5)
