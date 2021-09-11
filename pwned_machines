@@ -26,3 +26,9 @@
 26.FunBOx:ROOKIE
 27.Katana
 28.FunBox:UnderConstruction (oscommerce RCE but change payload from system to shell_exec)
+29.Mr Robot CTF(yes,again) <- lengthy but ez
+30.PickleRick <- # grep -R ""  -> grep all files in the cd
+31.RootMe <- EZ PZ
+32.SimpleCTF <- EZ PZ
+33.Bounty Hacker <- EZ PZ
+34.Agent Sudo <- Solved with a hint , could've brute forced the User-Agent Parameter in Python {User-Agent = {for i in range(a-z|A-z)}} 
