@@ -1,0 +1,40 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: project_scan_backup
+START_TIME: Tue Sep 14 15:55:57 2021
+URL_BASE: http://172.16.64.140/project/backup/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+ADDED_HEADERS: 
+--
+Authorization: Basic YWRtaW46YWRtaW4=
+--
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://172.16.64.140/project/backup/ ----
+==> DIRECTORY: http://172.16.64.140/project/backup/backup/
+==> DIRECTORY: http://172.16.64.140/project/backup/css/
+==> DIRECTORY: http://172.16.64.140/project/backup/images/
++ http://172.16.64.140/project/backup/index.html (CODE:200|SIZE:6525)
+==> DIRECTORY: http://172.16.64.140/project/backup/test/
+
+---- Entering directory: http://172.16.64.140/project/backup/backup/ ----
++ http://172.16.64.140/project/backup/backup/index.html (CODE:200|SIZE:6525)
+
+---- Entering directory: http://172.16.64.140/project/backup/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: OPERATION TIMEOUT)
+
+-----------------
+END_TIME: Tue Sep 14 17:14:57 2021
+DOWNLOADED: 9708 - FOUND: 2
