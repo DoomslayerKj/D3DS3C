@@ -1,0 +1,55 @@
+Completed SYN Stealth Scan against 172.16.64.199 in 798.80s (1 host left)
+Warning: 172.16.64.140 giving up on port because retransmission cap hit (10).
+Completed SYN Stealth Scan at 13:44, 798.87s elapsed (262140 total ports)
+Nmap scan report for 172.16.64.101
+Host is up, received arp-response (4.8s latency).
+Scanned at 2021-09-14 13:30:52 IST for 539s
+Not shown: 62910 filtered ports, 2623 closed ports
+Reason: 62910 no-responses and 2623 resets
+PORT     STATE SERVICE    REASON
+22/tcp   open  ssh        syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+MAC Address: 00:50:56:A0:C8:E0 (VMware)
+
+Nmap scan report for 172.16.64.140
+Host is up, received arp-response (0.40s latency).
+Scanned at 2021-09-14 13:30:52 IST for 799s
+Not shown: 39197 closed ports, 26337 filtered ports
+Reason: 39197 resets and 26337 no-responses
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 64
+MAC Address: 00:50:56:A0:91:79 (VMware)
+
+Nmap scan report for 172.16.64.182
+Host is up, received arp-response (4.7s latency).
+Scanned at 2021-09-14 13:30:52 IST for 539s
+Not shown: 61718 filtered ports, 3816 closed ports
+Reason: 61718 no-responses and 3816 resets
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 64
+MAC Address: 00:50:56:A0:53:33 (VMware)
+
+Nmap scan report for 172.16.64.199
+Host is up, received arp-response (7.0s latency).
+Scanned at 2021-09-14 13:30:52 IST for 799s
+Not shown: 33043 filtered ports, 32480 closed ports
+Reason: 33043 no-responses and 32480 resets
+PORT      STATE SERVICE      REASON
+135/tcp   open  msrpc        syn-ack ttl 128
+139/tcp   open  netbios-ssn  syn-ack ttl 128
+445/tcp   open  microsoft-ds reset ttl 128
+1433/tcp  open  ms-sql-s     syn-ack ttl 128
+49664/tcp open  unknown      syn-ack ttl 128
+49665/tcp open  unknown      syn-ack ttl 128
+49666/tcp open  unknown      syn-ack ttl 128
+49667/tcp open  unknown      syn-ack ttl 128
+49668/tcp open  unknown      syn-ack ttl 128
+49669/tcp open  unknown      syn-ack ttl 128
+49670/tcp open  unknown      syn-ack ttl 128
+49943/tcp open  unknown      syn-ack ttl 128
+MAC Address: 00:50:56:A0:E6:23 (VMware)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 4 IP addresses (4 hosts up) scanned in 799.68 seconds
+           Raw packets sent: 1669257 (73.447MB) | Rcvd: 90047 (3.602MB)
+                                                                        

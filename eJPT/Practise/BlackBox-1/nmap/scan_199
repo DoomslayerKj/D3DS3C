@@ -1,0 +1,146 @@
+# Nmap 7.91 scan initiated Tue Sep 14 15:02:14 2021 as: nmap -p135,139,445,1433,49664-49670,49943 -sV -sC -A -O -oN scan_199 -vv 172.16.64.199
+Nmap scan report for 172.16.64.199
+Host is up, received arp-response (0.46s latency).
+Scanned at 2021-09-14 15:02:14 IST for 85s
+
+PORT      STATE SERVICE       REASON          VERSION
+135/tcp   open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 128 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds? syn-ack ttl 128
+1433/tcp  open  ms-sql-s      syn-ack ttl 128 Microsoft SQL Server 2014 12.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   Target_Name: WIN10
+|   NetBIOS_Domain_Name: WIN10
+|   NetBIOS_Computer_Name: WIN10
+|   DNS_Domain_Name: WIN10
+|   DNS_Computer_Name: WIN10
+|_  Product_Version: 10.0.10586
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Issuer: commonName=SSL_Self_Signed_Fallback
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2021-09-13T13:32:13
+| Not valid after:  2051-09-13T13:32:13
+| MD5:   e490 c93c a708 3843 2a79 60b2 827b d017
+| SHA-1: 1ad6 74a1 a0bc 83ed e531 334b d8ba cfd9 9b9d d6a2
+| -----BEGIN CERTIFICATE-----
+| MIIB+zCCAWSgAwIBAgIQXm8LBksjxZxCpIeAqswXHTANBgkqhkiG9w0BAQUFADA7
+| MTkwNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEA
+| bABsAGIAYQBjAGswIBcNMjEwOTEzMTMzMjEzWhgPMjA1MTA5MTMxMzMyMTNaMDsx
+| OTA3BgNVBAMeMABTAFMATABfAFMAZQBsAGYAXwBTAGkAZwBuAGUAZABfAEYAYQBs
+| AGwAYgBhAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlalmx/bFb8KA
+| bQfEBKImCT3ILUt0teZxL33OiS9zY8ryRFflCAFOAyDf06uEGX5uyjpu+FVBzI1+
+| LtHg/r/H8CEubDxpH+RVDK3izencuL+FpytL3y1xuGOLNz0Fgis25EEwpLOCOmFB
+| KwWXevhGqTQEbprDobasUL63nC+pAm8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCN
+| eQ6gfv1Fc8UZMGO/j94m1IyIqzZ0SJZlmyOUw680d8KlkY7ZFH1GHeCytXAVFeao
+| FAkoCZwqYwCvJqLscCD8jo5oKFMfQZ/Elpji+vTxWWNkZlkpJtMcOZ1JZPHilA0b
+| tqoEQwazaQBTLZ+rmpTF9lvP4F0/go6uxPt6+3/DcQ==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2021-09-14T09:33:38+00:00; +1s from scanner time.
+49664/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49669/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49670/tcp open  msrpc         syn-ack ttl 128 Microsoft Windows RPC
+49943/tcp open  ms-sql-s      syn-ack ttl 128 Microsoft SQL Server 2014 12.00.2000
+| ms-sql-ntlm-info: 
+|   Target_Name: WIN10
+|   NetBIOS_Domain_Name: WIN10
+|   NetBIOS_Computer_Name: WIN10
+|   DNS_Domain_Name: WIN10
+|   DNS_Computer_Name: WIN10
+|_  Product_Version: 10.0.10586
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Issuer: commonName=SSL_Self_Signed_Fallback
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2021-09-13T13:32:13
+| Not valid after:  2051-09-13T13:32:13
+| MD5:   e490 c93c a708 3843 2a79 60b2 827b d017
+| SHA-1: 1ad6 74a1 a0bc 83ed e531 334b d8ba cfd9 9b9d d6a2
+| -----BEGIN CERTIFICATE-----
+| MIIB+zCCAWSgAwIBAgIQXm8LBksjxZxCpIeAqswXHTANBgkqhkiG9w0BAQUFADA7
+| MTkwNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEA
+| bABsAGIAYQBjAGswIBcNMjEwOTEzMTMzMjEzWhgPMjA1MTA5MTMxMzMyMTNaMDsx
+| OTA3BgNVBAMeMABTAFMATABfAFMAZQBsAGYAXwBTAGkAZwBuAGUAZABfAEYAYQBs
+| AGwAYgBhAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlalmx/bFb8KA
+| bQfEBKImCT3ILUt0teZxL33OiS9zY8ryRFflCAFOAyDf06uEGX5uyjpu+FVBzI1+
+| LtHg/r/H8CEubDxpH+RVDK3izencuL+FpytL3y1xuGOLNz0Fgis25EEwpLOCOmFB
+| KwWXevhGqTQEbprDobasUL63nC+pAm8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCN
+| eQ6gfv1Fc8UZMGO/j94m1IyIqzZ0SJZlmyOUw680d8KlkY7ZFH1GHeCytXAVFeao
+| FAkoCZwqYwCvJqLscCD8jo5oKFMfQZ/Elpji+vTxWWNkZlkpJtMcOZ1JZPHilA0b
+| tqoEQwazaQBTLZ+rmpTF9lvP4F0/go6uxPt6+3/DcQ==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2021-09-14T09:33:39+00:00; +2s from scanner time.
+MAC Address: 00:50:56:A0:E6:23 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows 10 (95%), Microsoft Windows 10 1507 (95%), Microsoft Windows 10 1507 - 1607 (95%), Microsoft Windows 10 1511 (95%), Microsoft Windows Vista SP1 - SP2, Windows Server 2008 SP2, or Windows 7 (95%), Microsoft Windows Server 2016 (93%), Microsoft Windows 7 or Windows Server 2008 R2 (93%), Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1 (93%), Microsoft Windows Vista or Windows 7 SP1 (93%), Microsoft Windows Server 2008 SP2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.91%E=4%D=9/14%OT=135%CT=%CU=33107%PV=Y%DS=1%DC=D%G=N%M=005056%TM=61406C73%P=x86_64-pc-linux-gnu)
+SEQ(SP=F3%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=A)
+OPS(O1=M4E7NW8ST11%O2=M4E7NW8ST11%O3=M4E7NW8NNT11%O4=M4E7NW8ST11%O5=M4E7NW8ST11%O6=M4E7ST11)
+WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)
+ECN(R=Y%DF=Y%T=80%W=2000%O=M4E7NW8NNS%CC=N%Q=)
+T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)
+T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)
+T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.068 days (since Tue Sep 14 13:26:05 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=243 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1s, deviation: 0s, median: 1s
+| ms-sql-info: 
+|   172.16.64.199:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2014 RTM
+|       number: 12.00.2000.00
+|       Product: Microsoft SQL Server 2014
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| nbstat: NetBIOS name: WIN10, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:a0:e6:23 (VMware)
+| Names:
+|   WIN10<00>            Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WIN10<20>            Flags: <unique><active>
+| Statistics:
+|   00 50 56 a0 e6 23 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 48446/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 47253/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 42268/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 4348/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-09-14T09:33:33
+|_  start_date: 2021-09-13T13:32:11
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   459.51 ms 172.16.64.199
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 14 15:03:39 2021 -- 1 IP address (1 host up) scanned in 85.01 seconds
