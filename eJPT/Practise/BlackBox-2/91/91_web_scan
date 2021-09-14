@@ -1,0 +1,23 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: 91_web_scan
+START_TIME: Tue Sep 14 20:13:52 2021
+URL_BASE: http://172.16.64.91:80/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://172.16.64.91:80/ ----
++ http://172.16.64.91:80/index.html (CODE:200|SIZE:11321)
++ http://172.16.64.91:80/server-status (CODE:403|SIZE:300)
+
+-----------------
+END_TIME: Tue Sep 14 20:49:52 2021
+DOWNLOADED: 4612 - FOUND: 2

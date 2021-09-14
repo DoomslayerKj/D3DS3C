@@ -1,0 +1,49 @@
+# Nmap 7.91 scan initiated Tue Sep 14 20:04:17 2021 as: nmap -p22,80 -sC -sV -O -oN nmap/81_Scan -vv 172.16.64.81
+Nmap scan report for 172.16.64.81
+Host is up, received arp-response (0.34s latency).
+Scanned at 2021-09-14 20:04:17 IST for 37s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 09:1e:bf:d0:44:0f:bc:c8:64:bd:ac:16:09:79:ca:a8 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCw55JDiDXMZSUODEktpM6HeFcANAVkGIM0XtYYmZ0KFkHfiy6hBFCvsii34LTg7lQY3dt1sKaH/bqBcVos0SU5rRCtjgr/3V9jXHN1u+hQLID4UssBTSwwikn2IoDdaay/J2TUb3Zl4rqjSOxjAmJ1VQaHUIuV9tZScOJDykZs9V02RZk48S7MToYv20MIkM7w7aLT7msEpHyXO5CX9GyUgGvMVGnv0mYGrxM7BZkdOiPLu53NzVCNXLfGqdu0po99z3QPFGr2MTnwcQ+FBgzmXeM+blQOFNwlC6JY9jQEy5F/m/6k/4bJtVL+gXVNmpTeq5YM1Dwh/KM8zsWeaaiV
+|   256 df:60:fc:fc:db:4b:be:b6:3e:7a:4e:84:4c:a1:57:7d (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAfWotA0wesTbPNILoHoYtzxahAiXgoKAQQ5NfdHBotI9Ce8MEK2+CQy8fSN/ZI7hyfPWA3Ed9d8I3hsA9gvlzs=
+|   256 ce:8c:fe:bd:76:77:8e:bd:c9:b8:8e:dc:66:b8:80:38 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBIew3x3kc1O9hXM1Tkh+WU0+fTB4kyMjAK28aLNb6o4
+80/tcp open  http    syn-ack ttl 64 Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+MAC Address: 00:50:56:A2:46:CE (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Linux 3.2 - 4.9 (95%), Linux 4.8 (95%), Linux 4.9 (95%), Linux 3.16 (95%), Linux 3.12 (95%), Linux 3.13 (95%), Linux 3.18 (95%), Linux 3.8 - 3.11 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 4.4 (95%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.91%E=4%D=9/14%OT=22%CT=%CU=44503%PV=Y%DS=1%DC=D%G=N%M=005056%TM=6140B30E%P=x86_64-pc-linux-gnu)
+SEQ(SP=104%GCD=1%ISR=103%TI=Z%CI=I%II=I%TS=8)
+OPS(O1=M4E7ST11NW7%O2=M4E7ST11NW7%O3=M4E7NNT11NW7%O4=M4E7ST11NW7%O5=M4E7ST11NW7%O6=M4E7ST11)
+WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)
+ECN(R=Y%DF=Y%T=40%W=7210%O=M4E7NNSNW7%CC=Y%Q=)
+T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.016 days (since Tue Sep 14 19:42:16 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 14 20:04:54 2021 -- 1 IP address (1 host up) scanned in 36.59 seconds

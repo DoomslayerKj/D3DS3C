@@ -1,0 +1,34 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: 92_web_scan
+START_TIME: Tue Sep 14 20:20:00 2021
+URL_BASE: http://172.16.64.92:80/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://172.16.64.92:80/ ----
+==> DIRECTORY: http://172.16.64.92:80/assets/
+==> DIRECTORY: http://172.16.64.92:80/images/
++ http://172.16.64.92:80/index.html (CODE:200|SIZE:1393)
++ http://172.16.64.92:80/server-status (CODE:403|SIZE:300)
+
+---- Entering directory: http://172.16.64.92:80/assets/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+==> DIRECTORY: http://172.16.64.92:80/assets/css/
+==> DIRECTORY: http://172.16.64.92:80/assets/fonts/
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: OPERATION TIMEOUT)
+
+-----------------
+END_TIME: Tue Sep 14 21:19:57 2021
+DOWNLOADED: 6665 - FOUND: 2

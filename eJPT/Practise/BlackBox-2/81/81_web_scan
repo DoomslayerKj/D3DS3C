@@ -1,0 +1,31 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: 81_web_scan
+START_TIME: Tue Sep 14 20:11:45 2021
+URL_BASE: http://172.16.64.81:80/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://172.16.64.81:80/ ----
+==> DIRECTORY: http://172.16.64.81:80/default/
++ http://172.16.64.81:80/index.html (CODE:200|SIZE:11321)
++ http://172.16.64.81:80/server-status (CODE:403|SIZE:300)
+==> DIRECTORY: http://172.16.64.81:80/webapp/
+
+---- Entering directory: http://172.16.64.81:80/default/ ----
++ http://172.16.64.81:80/default/index.html (CODE:200|SIZE:11321)
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: OPERATION TIMEOUT)
+
+-----------------
+END_TIME: Tue Sep 14 21:19:57 2021
+DOWNLOADED: 7765 - FOUND: 3

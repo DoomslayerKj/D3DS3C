@@ -1,0 +1,36 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: 91_foocorp_scan
+START_TIME: Tue Sep 14 21:25:48 2021
+URL_BASE: http://75ajvxi36vchsv584es1.foocorp.io/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://75ajvxi36vchsv584es1.foocorp.io/ ----
+==> DIRECTORY: http://75ajvxi36vchsv584es1.foocorp.io/app/
++ http://75ajvxi36vchsv584es1.foocorp.io/index.html (CODE:200|SIZE:4)
++ http://75ajvxi36vchsv584es1.foocorp.io/server-status (CODE:403|SIZE:319)
+
+---- Entering directory: http://75ajvxi36vchsv584es1.foocorp.io/app/ ----
++ http://75ajvxi36vchsv584es1.foocorp.io/app/index.php (CODE:200|SIZE:511)
+==> DIRECTORY: http://75ajvxi36vchsv584es1.foocorp.io/app/js/
+==> DIRECTORY: http://75ajvxi36vchsv584es1.foocorp.io/app/upload/
+
+---- Entering directory: http://75ajvxi36vchsv584es1.foocorp.io/app/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: COULDNT CONNECT)
+
+-----------------
+END_TIME: Tue Sep 14 22:13:41 2021
+DOWNLOADED: 9585 - FOUND: 3
